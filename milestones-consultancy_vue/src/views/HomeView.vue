@@ -46,7 +46,7 @@
 
             <a
               href="#"
-              class="mt-8 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+              class="mt-8 inline-flex items-center rounded border border-burgundy bg-burgundy px-8 py-3 text-white hover:bg-transparent hover:text-burgundy focus:outline-none focus:ring active:text-burgundy"
             >
               <span class="text-sm font-medium"> Read More </span>
 
@@ -89,7 +89,7 @@
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-10 w-10 text-indigo-600"
+              class="h-10 w-10 text-burgundy"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -120,7 +120,7 @@
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-10 w-10 text-indigo-600"
+              class="h-10 w-10 text-burgundy"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -151,7 +151,7 @@
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-10 w-10 text-indigo-600"
+              class="h-10 w-10 text-burgundy"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -180,7 +180,7 @@
         <div class="mt-12 text-center">
           <a
             href="#"
-            class="mt-8 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-pink-500"
+            class="mt-8 inline-flex items-center rounded border border-burgundy bg-burgundy px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-burgundy"
           >
             <span class="text-sm font-medium"> Get Started </span>
 
@@ -202,78 +202,10 @@
         </div>
       </div>
     </section>
-
-    <!-- <div class="pl-24 pr-24 mb-16">
-      <div class="text-center border-t-4 border-sky-800 mb-6 m-auto w-1/4"></div>
-      <h3 class="text-center font-bold text-2xl mb-4">Why Milestones Consultancy?</h3>
-      <div class="w-3/4 m-auto mb-16">
-        <p>
-          At MILESTONES, we have a strong commitment to ethical business practices and
-          wish to reinforce that commitment by working with clients who respect the same
-          values. For this reason we are happy to set out the guarantee and philosophy
-          which will guide our business dealings. This page also outlines our pricing
-          structure.
-        </p>
-      </div>
-      <div class="lg:flex mb-10">
-        <div
-          class="basis-1/3 rounded pt-10 pb-10 mr-6 text-center px-3 cursor-pointer hover:shadow-lg hover:shadow-black/25"
-        >
-          <div class="m-auto w-1/4 mb-6">
-            <div class="relative rounded-full w-12 h-12 bg-indigo-600">
-              <div class="absolute top-2 left-5">
-                <p class="text-2xl text-white">1</p>
-              </div>
-            </div>
-          </div>
-          <h3 class="font-bold text-xl mb-6">Quality Services</h3>
-          <p>
-            Our aim is to help our customers reach their goals through the individualized
-            attention your organisation deserve
-          </p>
-          <p>Our company is fully dedicated to providing you with the best service.</p>
-        </div>
-        <div
-          class="basis-1/3 rounded pt-10 pb-10 mr-6 text-center px-3 cursor-pointer hover:shadow-lg hover:shadow-black/25"
-        >
-          <div class="m-auto w-1/4 mb-6">
-            <div class="relative rounded-full w-12 h-12 bg-indigo-600">
-              <div class="absolute top-2 left-4">
-                <p class="text-2xl text-white">2</p>
-              </div>
-            </div>
-          </div>
-          <h3 class="font-bold text-xl mb-6">Quality Services</h3>
-
-          <p>
-            Our aim is to help our customers reach their goals through the individualized
-            attention your organisation deserve Our company is fully dedicated to
-            providing you with the best service.
-          </p>
-        </div>
-        <div
-          class="basis-1/3 rounded pt-10 pb-10 mr-6 text-center px-3 cursor-pointer hover:shadow-lg hover:shadow-black/25"
-        >
-          <div class="m-auto w-1/4 mb-6">
-            <div class="relative rounded-full w-12 h-12 bg-indigo-600">
-              <div class="absolute top-2 left-5">
-                <p class="text-2xl text-white">3</p>
-              </div>
-            </div>
-          </div>
-          <h3 class="font-bold text-xl mb-6">Quality Services</h3>
-
-          <p>
-            Our aim is to help our customers reach their goals through the individualized
-            attention your organisation deserve
-          </p>
-          <p>Our company is fully dedicated to providing you with the best service.</p>
-        </div>
-      </div>
-    </div> -->
-    <section class="text-black">
+    <section class="">
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-lg text-center">
+          <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/2"></div>
           <h2 class="text-2xl font-bold sm:text-4xl">Why Milestones Consultancy?</h2>
 
           <p class="mt-4">
@@ -285,11 +217,11 @@
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
-            class="block rounded-xl p-8 shadow-xl transition hover:border-indigo-600/10 hover:shadow-indigo-600/30"
+            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/30"
             href=""
           >
             <div class="m-auto w-1/4 mb-6">
-              <div class="relative rounded-full w-12 h-12 bg-indigo-600">
+              <div class="relative rounded-full w-12 h-12 bg-burgundy">
                 <div class="absolute top-2 left-5">
                   <p class="text-2xl text-white">1</p>
                 </div>
@@ -304,11 +236,11 @@
           </a>
 
           <a
-            class="block rounded-xl p-8 shadow-xl transition hover:border-indigo-600/10 hover:shadow-indigo-600/30"
+            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/30"
             href=""
           >
             <div class="m-auto w-1/4 mb-6">
-              <div class="relative rounded-full w-12 h-12 bg-indigo-600">
+              <div class="relative rounded-full w-12 h-12 bg-burgundy">
                 <div class="absolute top-2 left-5">
                   <p class="text-2xl text-white">2</p>
                 </div>
@@ -323,11 +255,11 @@
           </a>
 
           <a
-            class="block rounded-xl p-8 shadow-xl transition hover:border-indigo-600/10 hover:shadow-indigo-600/30"
+            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/30"
             href=""
           >
             <div class="m-auto w-1/4 mb-6">
-              <div class="relative rounded-full w-12 h-12 bg-indigo-600">
+              <div class="relative rounded-full w-12 h-12 bg-burgundy">
                 <div class="absolute top-2 left-5">
                   <p class="text-2xl text-white">3</p>
                 </div>
@@ -345,137 +277,177 @@
     </section>
 
     <div class="pl-24 pr-24">
-      <div class="text-center border-t-4 border-sky-800 mb-6 m-auto w-1/4"></div>
+      <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/4"></div>
       <h3 class="text-center font-bold text-2xl mb-4">Testimonials</h3>
       <div class="w-3/4 m-auto">
         <p></p>
       </div>
       <section>
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-          <div class="swiper-container !overflow-hidden">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <blockquote
-                  class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-indigo-600 cursor-pointer"
-                >
-                  <div class="flex items-center">
-                    <img
-                      alt="Profile Pic"
-                      src="@/assets/images/sammyb-review.jpg"
-                      class="h-16 w-16 rounded-full object-cover"
-                    />
+          <div class="swiper-container1 !overflow-hidden">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <blockquote
+                    class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-burgundy cursor-pointer"
+                  >
+                    <div class="flex items-center">
+                      <img
+                        alt="Profile Pic"
+                        src="@/assets/images/sam-review.jpg"
+                        class="h-16 w-16 rounded-full object-cover"
+                      />
 
-                    <div class="ml-4 text-sm">
-                      <p class="font-medium">Bark Dagleish</p>
-                      <p class="mt-1">Head of Barketing</p>
+                      <div class="ml-4 text-sm">
+                        <p class="font-medium">Bark Dagleish</p>
+                        <p class="mt-1">Head of Barketing</p>
+                      </div>
                     </div>
-                  </div>
 
-                  <p class="relative mt-4 text-gray-500">
-                    <span class="text-xl">&ldquo;</span>
+                    <p class="relative mt-4 text-gray-500">
+                      <span class="text-xl">&ldquo;</span>
 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                    assumenda officiis sit amet itaque eveniet accusantium corporis
-                    tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                    repellat, commodi in esse quisquam.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                      assumenda officiis sit amet itaque eveniet accusantium corporis
+                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
+                      repellat, commodi in esse quisquam.
 
-                    <span class="text-xl">&rdquo;</span>
-                  </p>
-                </blockquote>
+                      <span class="text-xl">&rdquo;</span>
+                    </p>
+                  </blockquote>
+                </div>
+
+                <div class="swiper-slide">
+                  <blockquote
+                    class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-burgundy cursor-pointer"
+                  >
+                    <div class="flex items-center">
+                      <img
+                        alt="Profile Pic"
+                        src="@/assets/images/auscar-review.jpg"
+                        class="h-16 w-16 rounded-full object-cover"
+                      />
+
+                      <div class="ml-4 text-sm">
+                        <p class="font-medium">Bark Dagleish</p>
+                        <p class="mt-1">Head of Barketing</p>
+                      </div>
+                    </div>
+
+                    <p class="relative mt-4 text-gray-500">
+                      <span class="text-xl">&ldquo;</span>
+
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                      assumenda officiis sit amet itaque eveniet accusantium corporis
+                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
+                      repellat, commodi in esse quisquam.
+
+                      <span class="text-xl">&rdquo;</span>
+                    </p>
+                  </blockquote>
+                </div>
+
+                <div class="swiper-slide">
+                  <blockquote
+                    class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-burgundy cursor-pointer"
+                  >
+                    <div class="flex items-center">
+                      <img
+                        alt="Profile Pic"
+                        src="@/assets/images/freddy-review.jpeg"
+                        class="h-16 w-16 rounded-full object-cover"
+                      />
+
+                      <div class="ml-4 text-sm">
+                        <p class="font-medium">Bark Dagleish</p>
+                        <p class="mt-1">Head of Barketing</p>
+                      </div>
+                    </div>
+
+                    <p class="relative mt-4 text-gray-500">
+                      <span class="text-xl">&ldquo;</span>
+
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                      assumenda officiis sit amet itaque eveniet accusantium corporis
+                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
+                      repellat, commodi in esse quisquam.
+
+                      <span class="text-xl">&rdquo;</span>
+                    </p>
+                  </blockquote>
+                </div>
+
+                <div class="swiper-slide">
+                  <blockquote
+                    class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-burgundy cursor-pointer"
+                  >
+                    <div class="flex items-center">
+                      <img
+                        alt="Profile Pic"
+                        src="@/assets/images/gracey-review.jpg"
+                        class="h-16 w-16 rounded-full object-cover"
+                      />
+
+                      <div class="ml-4 text-sm">
+                        <p class="font-medium">Bark Dagleish</p>
+                        <p class="mt-1">Head of Barketing</p>
+                      </div>
+                    </div>
+
+                    <p class="relative mt-4 text-gray-500">
+                      <span class="text-xl">&ldquo;</span>
+
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                      assumenda officiis sit amet itaque eveniet accusantium corporis
+                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
+                      repellat, commodi in esse quisquam.
+
+                      <span class="text-xl">&rdquo;</span>
+                    </p>
+                  </blockquote>
+                </div>
               </div>
 
-              <div class="swiper-slide">
-                <blockquote
-                  class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-indigo-600 cursor-pointer"
+              <div class="swiper-pagination !relative !bottom-0 mt-12 text-xl"></div>
+              <button
+                class="prev-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white"
+              >
+                <span class="sr-only">Previous Slide</span>
+                <svg
+                  class="h-5 w-5 -rotate-180 transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <div class="flex items-center">
-                    <img
-                      alt="Profile Pic"
-                      src="@/assets/images/auscar-review.jpg"
-                      class="h-16 w-16 rounded-full object-cover"
-                    />
-
-                    <div class="ml-4 text-sm">
-                      <p class="font-medium">Bark Dagleish</p>
-                      <p class="mt-1">Head of Barketing</p>
-                    </div>
-                  </div>
-
-                  <p class="relative mt-4 text-gray-500">
-                    <span class="text-xl">&ldquo;</span>
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                    assumenda officiis sit amet itaque eveniet accusantium corporis
-                    tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                    repellat, commodi in esse quisquam.
-
-                    <span class="text-xl">&rdquo;</span>
-                  </p>
-                </blockquote>
-              </div>
-
-              <div class="swiper-slide">
-                <blockquote
-                  class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-indigo-600 cursor-pointer"
+                  <path
+                    d="M9 5l7 7-7 7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
+              <button
+                class="next-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white"
+              >
+                <span class="sr-only">Next Slide</span>
+                <svg
+                  class="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <div class="flex items-center">
-                    <img
-                      alt="Profile Pic"
-                      src="@/assets/images/freddy-review.jpeg"
-                      class="h-16 w-16 rounded-full object-cover"
-                    />
-
-                    <div class="ml-4 text-sm">
-                      <p class="font-medium">Bark Dagleish</p>
-                      <p class="mt-1">Head of Barketing</p>
-                    </div>
-                  </div>
-
-                  <p class="relative mt-4 text-gray-500">
-                    <span class="text-xl">&ldquo;</span>
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                    assumenda officiis sit amet itaque eveniet accusantium corporis
-                    tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                    repellat, commodi in esse quisquam.
-
-                    <span class="text-xl">&rdquo;</span>
-                  </p>
-                </blockquote>
-              </div>
-
-              <div class="swiper-slide">
-                <blockquote
-                  class="rounded-lg bg-gray-100 p-8 hover:border-2 hover:border-indigo-600 cursor-pointer"
-                >
-                  <div class="flex items-center">
-                    <img
-                      alt="Profile Pic"
-                      src="@/assets/images/gracey-review.jpg"
-                      class="h-16 w-16 rounded-full object-cover"
-                    />
-
-                    <div class="ml-4 text-sm">
-                      <p class="font-medium">Bark Dagleish</p>
-                      <p class="mt-1">Head of Barketing</p>
-                    </div>
-                  </div>
-
-                  <p class="relative mt-4 text-gray-500">
-                    <span class="text-xl">&ldquo;</span>
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                    assumenda officiis sit amet itaque eveniet accusantium corporis
-                    tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                    repellat, commodi in esse quisquam.
-
-                    <span class="text-xl">&rdquo;</span>
-                  </p>
-                </blockquote>
-              </div>
+                  <path
+                    d="M9 5l7 7-7 7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
             </div>
-
-            <div class="swiper-pagination !relative !bottom-0 mt-12 text-xl"></div>
           </div>
         </div>
       </section>
@@ -493,20 +465,21 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Footer2 from "@/components/Footer2.vue";
-import { Swiper, Autoplay, Pagination } from "swiper";
+import { Swiper, Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/scss";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 export default {
   name: "HomeView",
   components: { Header, Swiper, Footer, Footer2 },
   mounted() {
-    Swiper.use(Autoplay, Pagination);
+    Swiper.use(Autoplay, Pagination, Navigation);
     const swiper = new Swiper(".swiper-container", {
       direction: "horizontal",
       loop: true,
       slidesPerView: 1,
       spaceBetween: 20,
-      modules: [Autoplay, Pagination],
+      modules: [Autoplay, Pagination, Navigation],
       autoplay: {
         delay: 8000,
         disableOnInteraction: false,
@@ -515,7 +488,12 @@ export default {
       },
       pagination: {
         el: ".swiper-pagination",
+        type: "bullets",
         clickable: true,
+      },
+      navigation: {
+        nextEl: "next-button",
+        prevEl: "prev-button",
       },
       breakpoints: {
         640: {
@@ -570,17 +548,18 @@ export default {
 </script>
 
 <style scoped>
-.main-page-image {
-  z-index: -1;
-}
 :global(.swiper-pagination-bullet) {
   height: 12px;
   width: 12px;
 }
+
+.swiper-container {
+  --swiper-theme-color: #9b0917;
+}
 .back-to-top {
   position: fixed;
   display: none;
-  background: #4b0082;
+  background: #9b0917;
   color: #ffffff;
   width: 40px;
   height: 40px;

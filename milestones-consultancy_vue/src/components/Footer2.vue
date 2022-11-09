@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <footer aria-label="Site Footer" class="bg-gray-900">
-      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
         <div class="lg:flex lg:gap-8">
           <div>
             <span class="block h-10 w-32 rounded-lg bg-gray-700"></span>

@@ -1,7 +1,14 @@
 <template>
-  <div></div>
+  <div class="services">
+    <Header />
+    <Footer />
+  </div>
 </template>
 
 <script>
-export default {};
+import Header from "@/components/Header2.vue";
+import Footer from "@/components/Footer2.vue";
+export default {
+  components: { Header, Footer },
+};
 </script>

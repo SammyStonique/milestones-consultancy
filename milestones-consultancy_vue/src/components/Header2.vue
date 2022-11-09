@@ -1,5 +1,7 @@
 <template>
-  <div class="fixed z-30 top-0 w-full sticky-navbar">
+  <div
+    class="fixed z-30 top-0 w-full sticky-navbar bg-white border-b border-slate-300 shadow-sm shadow-slate-200"
+  >
     <header aria-label="Site Header" class="border-b-0">
       <div
         class="mx-auto flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8"
@@ -31,7 +33,7 @@
         <div class="flex flex-1 items-center justify-end">
           <nav
             aria-label="Site Nav"
-            class="hidden lg:flex lg:gap-4 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide lg:text-white"
+            class="hidden lg:flex lg:gap-4 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide"
           >
             <router-link
               to="/"
@@ -88,14 +90,4 @@
 export default {};
 </script>
 
-<style scoped>
-.sticky-navbar-appear {
-  background-color: white;
-  color: indigo !important;
-  border-bottom: solid gray 1px;
-  text-decoration-color: blue;
-}
-.sticky-navbar-disappear {
-  background-color: none;
-}
-</style>
+<style scoped></style>

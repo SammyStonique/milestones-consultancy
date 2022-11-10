@@ -44,8 +44,8 @@
               more effectively to address the underlying causes of those priority needs.
             </p>
 
-            <a
-              href="#"
+            <router-link
+              to="/about"
               class="mt-8 inline-flex items-center rounded border border-burgundy bg-burgundy px-8 py-3 text-white hover:bg-transparent hover:text-burgundy focus:outline-none focus:ring active:text-burgundy"
             >
               <span class="text-sm font-medium"> Read More </span>
@@ -64,7 +64,7 @@
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
@@ -452,26 +452,18 @@
         </div>
       </section>
     </div>
-    <!-- Back to Top -->
-    <router-link to="#" @click="scrollToTop()" class="animate-bounce back-to-top"
-      ><i class="fa fa-chevron-up"></i
-    ></router-link>
-
-    <Footer2 />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
-import Footer from "@/components/Footer.vue";
-import Footer2 from "@/components/Footer2.vue";
 import { Swiper, Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/scss";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 export default {
   name: "HomeView",
-  components: { Header, Swiper, Footer, Footer2 },
+  components: { Header, Swiper },
   mounted() {
     Swiper.use(Autoplay, Pagination, Navigation);
     const swiper = new Swiper(".swiper-container", {
@@ -555,26 +547,5 @@ export default {
 
 .swiper-container {
   --swiper-theme-color: #9b0917;
-}
-.back-to-top {
-  position: fixed;
-  display: none;
-  background: #9b0917;
-  color: #ffffff;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 1;
-  font-size: 16px;
-  border-radius: 4px;
-  right: 15px;
-  bottom: 15px;
-  transition: background 0.5s;
-  z-index: 11;
-}
-
-.back-to-top i {
-  padding-top: 12px;
-  color: #ffffff;
 }
 </style>

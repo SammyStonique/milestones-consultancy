@@ -3,7 +3,11 @@
     <Header />
     <div class="mt-20 lg:pl-24 lg:pr-24">
       <section>
-        <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-12 lg:mb-16 sm:mb-8">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-12 lg:mb-16 sm:mb-8">
+          <div class="font-semibold text-center lg:mb-8 sm:mb-4">
+            <h2 class="sm:text-4xl text-3xl">Milestones Consultancy</h2>
+            <h1 class="italic text-gray-700 text-xl">Together each achieves more</h1>
+          </div>
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-100">
               <img
@@ -13,25 +17,26 @@
               />
             </div>
 
-            <div class="lg:py-4">
-              <h2 class="text-3xl font-bold sm:text-4xl lg:text-3xl">
+            <div class="">
+              <div class="text-center border-t-4 border-burgundy mb-6 w-1/4"></div>
+              <h2 class="text-2xl font-bold sm:text-4xl lg:text-2xl text-gray-600">
                 About Milestones Consultancy
               </h2>
 
-              <p class="mt-4 text-gray-600 lg:text-lg">
+              <p class="mt-4 text-gray-600 lg:text-base">
                 MILESTONES Development Consultancy’s main activity is supporting teams,
                 departments, communities, professions or whole organizations in
                 identifying their priorities, building on those priorities and then
                 working together more effectively to address the underlying causes of
                 those priority needs.
               </p>
-              <p class="mt-2 text-gray-600 lg:text-base">
+              <p class="mt-2 text-gray-600 lg:text-sm">
                 Our reputation is originally founded on our facilitation services, but we
                 also provide support to teams in difficulty, advice and support for
                 organizational change programmes, consultancy in joint working, and access
                 to learning away from the workplace.
               </p>
-              <p class="mt-2 text-gray-600 lg:text-base">
+              <p class="mt-2 text-gray-600 lg:text-sm">
                 At MILESTONES, we have a strong commitment to ethical business practices
                 and wish to reinforce that commitment by working with clients who respect
                 the same values. For this reason we are happy to set out the guarantee and
@@ -229,14 +234,13 @@
         </div>
       </section>
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header2.vue";
-import Footer from "@/components/Footer2.vue";
+
 export default {
-  components: { Header, Footer },
+  components: { Header },
 };
 </script>

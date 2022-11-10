@@ -3,8 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ActivitiesView from '../views/ActivitiesView.vue'
 import ContactView from '../views/ContactView.vue'
-import NewsView from '../views/NewsView.vue'
-import PortfolioView from '../views/PortfolioView.vue'
+import PricingView from '../views/PricingView.vue'
 import ServicesView from '../views/ServicesView.vue'
 
 const routes = [
@@ -28,15 +27,11 @@ const routes = [
     name: 'contact',
     component: ContactView
   },
+
   {
-    path: '/news',
-    name: 'news',
-    component: NewsView
-  },
-  {
-    path: '/portfolio',
-    name: 'portfolio',
-    component: PortfolioView
+    path: '/pricing',
+    name: 'pricing',
+    component: PricingView
   },
   {
     path: '/services',

@@ -37,44 +37,45 @@
           >
             <router-link
               to="/"
+              @click="scrollToTop"
               class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Home
             </router-link>
             <router-link
               to="/about"
+              @click="scrollToTop"
               class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               About
             </router-link>
 
             <router-link
-              to="/news"
+              to="/activities"
+              @click="scrollToTop"
               class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
-              News
+              Activities
             </router-link>
 
             <router-link
               to="/services"
+              @click="scrollToTop"
               class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Services
             </router-link>
             <router-link
-              to="/portfolio"
+              to="/pricing"
+              @click="scrollToTop"
               class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
-              Portfolio
+              Pricing
             </router-link>
-            <router-link
-              to="/activities"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-            >
-              Activities
-            </router-link>
+
             <router-link
               to="/contact"
+              @click="scrollToTop"
               class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Contact
@@ -87,7 +88,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+  },
+};
 </script>
 
-<style scoped></style>
+<style scoped>
+.router-link-active {
+  color: #9b0917;
+}
+</style>

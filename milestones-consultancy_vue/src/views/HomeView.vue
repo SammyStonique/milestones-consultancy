@@ -46,6 +46,7 @@
 
             <router-link
               to="/about"
+              @click="scrollToTop"
               class="mt-8 inline-flex items-center rounded border border-burgundy bg-burgundy px-8 py-3 text-white hover:bg-transparent hover:text-burgundy focus:outline-none focus:ring active:text-burgundy"
             >
               <span class="text-sm font-medium"> Read More </span>
@@ -72,7 +73,7 @@
     <section class="bg-gray-900 text-white">
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-lg text-center">
-          <h2 class="text-3xl font-bold sm:text-4xl">Solutions Overview</h2>
+          <h2 class="text-3xl font-bold sm:text-4xl">Services Overview</h2>
 
           <p class="mt-4 text-gray-300">
             Put quite simply, if we do not feel we are best placed to provide you with
@@ -178,8 +179,9 @@
         </div>
 
         <div class="mt-12 text-center">
-          <a
-            href="#"
+          <router-link
+            to="/services"
+            @click="scrollToTop"
             class="mt-8 inline-flex items-center rounded border border-burgundy bg-burgundy px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-burgundy"
           >
             <span class="text-sm font-medium"> Get Started </span>
@@ -198,7 +200,7 @@
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </router-link>
         </div>
       </div>
     </section>

@@ -72,6 +72,13 @@
             >
               Pricing
             </router-link>
+            <router-link
+              to="/faq"
+              @click="scrollToTop"
+              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+            >
+              FAQs
+            </router-link>
 
             <router-link
               to="/contact"

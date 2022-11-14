@@ -46,7 +46,7 @@
         <div class="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-12">
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div class="swiper-container overflow-hidden">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper cursor-pointer">
                 <div
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
@@ -98,7 +98,7 @@
               <div class="swiper-pagination !relative !bottom-0 mt-12 text-xl"></div>
             </div>
 
-            <div class="pt-4 z-30 bg-white">
+            <div class="pt-4">
               <ul class="">
                 <li class="relative mb-4 pl-6">Development of Strategic Plans</li>
                 <li class="relative mb-4 pl-6">
@@ -140,8 +140,8 @@
               </ul>
             </div>
 
-            <div class="swiper-container overflow-hidden">
-              <div class="swiper-wrapper">
+            <div class="swiper-container1 overflow-hidden">
+              <div class="swiper-wrapper cursor-pointer">
                 <div
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
@@ -197,8 +197,8 @@
       <section>
         <div class="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-12">
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div class="swiper-container overflow-hidden">
-              <div class="swiper-wrapper">
+            <div class="swiper-container2 overflow-hidden">
+              <div class="swiper-wrapper cursor-pointer">
                 <div
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
@@ -288,6 +288,70 @@ export default {
       },
     });
     swiper.autoplay.start();
+    const swiper1 = new Swiper(".swiper-container1", {
+      direction: "horizontal",
+      loop: true,
+      modules: [Autoplay, Pagination, Navigation],
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+        el: ".swiper-slide",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "next-button",
+        prevEl: "prev-button",
+      },
+
+      on: {
+        init() {
+          this.el.addEventListener("mouseenter", () => {
+            this.autoplay.stop();
+          });
+          this.el.addEventListener("mouseleave", () => {
+            this.autoplay.start();
+          });
+        },
+      },
+    });
+    swiper1.autoplay.start();
+    const swiper2 = new Swiper(".swiper-container2", {
+      direction: "horizontal",
+      loop: true,
+      modules: [Autoplay, Pagination, Navigation],
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+        el: ".swiper-slide",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "next-button",
+        prevEl: "prev-button",
+      },
+
+      on: {
+        init() {
+          this.el.addEventListener("mouseenter", () => {
+            this.autoplay.stop();
+          });
+          this.el.addEventListener("mouseleave", () => {
+            this.autoplay.start();
+          });
+        },
+      },
+    });
+    swiper2.autoplay.start();
   },
 };
 </script>
@@ -298,5 +362,8 @@ ul li:before {
   padding-right: 30px;
   position: absolute;
   left: 0;
+}
+.swiper-pagination {
+  text-align: left;
 }
 </style>

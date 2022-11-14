@@ -3,7 +3,7 @@
     <Header />
     <div class="w-full mb-10">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4478.417057162117!2d34.29207120270817!3d0.06009954181498942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177fe37d0b31ab7f%3A0x48acef74239b1123!2sAlego%20Usonga%20Constituency%20Office%2F%20CDF!5e0!3m2!1sen!2ske!4v1668058914687!5m2!1sen!2ske"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.632161641998!2d34.295167000000006!3d0.060707000000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48acef74239b1123!2sAlego%20Usonga%20Constituency%20Office%2F%20CDF!5e0!3m2!1sen!2ske!4v1668438735383!5m2!1sen!2ske"
         width="100%"
         height="650"
         style="border: 0"

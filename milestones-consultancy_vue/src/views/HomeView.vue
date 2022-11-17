@@ -1,20 +1,22 @@
 <template>
   <div class="home">
     <div
-      class="relative w-full h-screen bg-[url('@/assets/images/image03.jpeg')] bg-cover bg-center lg:mb-12 sm:mb-6"
+      class="relative lg:w-full lg:h-screen bg-[url('@/assets/images/image03.jpeg')] bg-cover bg-center lg:mb-12 sm:mb-6"
     >
       <div
         class="w-full h-full flex flex-col justify-center items-center pt-60 backdrop-blur-xs bg-black/70"
       >
-        <div class="m-auto w-1/2 lg:pt-24 sm:pt-12">
-          <h3 class="lg:text-6xl sm:text-xl text-white text-center">At Milestones,</h3>
+        <div class="m-auto w-3/4 lg:w-1/2 lg:pt-24 sm:pt-12">
+          <h3 class="lg:text-6xl text-5xl text-white text-center mb-10 lg:mb-4">
+            At Milestones,
+          </h3>
           <h1
-            class="lg:mt-5 sm:mt-2 lg:mb-20 sm:mb-10 text-center lg:text-5xl sm:text-lg text-white font-semibold drop-shadow-lg"
+            class="lg:mt-5 sm:mt-2 lg:mb-20 mb-10 text-center lg:text-5xl text-xl text-white font-semibold drop-shadow-lg"
           >
             we believe that <span class="text-burgundy">together </span>each achieves
             more.
           </h1>
-          <p class="text-white lg:text-2xl sm:text-xs lg:text-center">
+          <p class="text-white lg:text-2xl text-xs text-center">
             Committed to ethical business practices
           </p>
         </div>
@@ -278,14 +280,14 @@
       </div>
     </section>
 
-    <div class="pl-24 pr-24">
+    <div class="lg:pl-24 lg:pr-24 pl-6 pr-6">
       <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/4"></div>
       <h3 class="text-center font-bold text-2xl mb-4">Testimonials</h3>
-      <div class="w-3/4 m-auto">
+      <div class="lg:w-3/4 m-auto w-full">
         <p></p>
       </div>
       <section>
-        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-screen-xl py-8 sm:px-6 lg:px-8">
           <div class="swiper-container1 !overflow-hidden">
             <div class="swiper-container">
               <div class="swiper-wrapper">

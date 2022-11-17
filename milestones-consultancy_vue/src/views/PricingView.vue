@@ -5,10 +5,10 @@
       <section>
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-12 lg:mb-16 sm:mb-8">
           <div class="font-semibold text-center lg:mb-8 sm:mb-4">
-            <h2 class="sm:text-4xl text-3xl sm:mb-4">Our Pricing Philosophy</h2>
+            <h2 class="sm:text-4xl text-3xl mb-4 text-center">Our Pricing Philosophy</h2>
           </div>
           <div class="lg:mx-auto lg:w-2/3 lg:mb-8 sm:text-justify sm:mb-6">
-            <p class="text-center">
+            <p class="lg:text-center">
               Put quite simply, if we do not feel we are best placed to provide you with
               what you need, we will say so and save you time and money. There is nothing
               to be gained by either party if we take on a commission without the
@@ -25,13 +25,13 @@
             ></div>
             <h2 class="text-3xl font-bold sm:text-4xl mb-8">Our Pricing Policy</h2>
           </div>
-          <div class="mx-auto w-3/4">
-            <p class="text-center mb-4">
+          <div class="mx-auto lg:w-3/4 sm:w-full">
+            <p class="lg:text-center mb-4">
               Whilst our standard charge is by the day, we do not charge for time which
               the client does not need. Therefore, if we are only asked for half a day's
               work, you will only pay for half a day.
             </p>
-            <p class="text-center mb-4">
+            <p class="lg:text-center mb-4">
               Our normal daily charge for Kenya based clients will be negotiated. This
               rate is the same for off-site preparation and research time as for on-site
               activities. Rates for work overseas will be negotiated on a case by case
@@ -41,7 +41,7 @@
               subsistence expenses incurred in respect of the consultant are charged at a
               cost.
             </p>
-            <p class="text-center mb-4">
+            <p class="lg:text-center mb-4">
               Training and hotel accommodation booked by MILESTONES Development
               Consultancy on behalf of clients will be invoiced directly to the client by
               the venue concerned or paid by MILESTONES Development Consultancy and
@@ -51,7 +51,7 @@
               Hotel accommodation train and air tickets, and other subsistence expenses
               incurred in respect of the consultant are charged at cost.
             </p>
-            <p class="text-center mb-4">
+            <p class="lg:text-center mb-4">
               Training and hotel accommodation booked by Development Consultancy on behalf
               of clients will be invoiced directly to the client by the venue concerned or
               paid by Development Consultancy and recharged to the client at cost Special

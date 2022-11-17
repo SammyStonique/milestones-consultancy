@@ -2,10 +2,10 @@
   <div class="fixed z-30 top-0 w-full sticky-navbar">
     <header aria-label="Site Header" class="border-b-0">
       <div
-        class="mx-auto flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8"
+        class="mx-auto lg:flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8"
       >
         <div class="flex items-center">
-          <button type="button" class="p-2 sm:mr-4 lg:hidden">
+          <button type="button" @click="showDropMenu" class="p-2 sm:mr-4 lg:hidden">
             <svg
               class="h-6 w-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -28,10 +28,10 @@
           </a>
         </div>
 
-        <div class="flex flex-1 items-center justify-end">
+        <div class="lg:flex lg:flex-1 lg:items-center lg:justify-end sm:hidden">
           <nav
             aria-label="Site Nav"
-            class="hidden lg:flex lg:gap-8 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide lg:text-white"
+            class="hidden lg:flex lg:gap-8 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide"
           >
             <router-link
               to="/"
@@ -79,6 +79,22 @@
             </router-link>
           </nav>
         </div>
+        <div class="lg:hidden md:hidden py-4 pl-3 bg-white" v-if="showMenu">
+          <nav class="">
+            <p class="mb-3"><router-link to="/">Home</router-link></p>
+            <p class="mb-3 text-black"><router-link to="/about">About</router-link></p>
+            <p class="mb-3 text-black">
+              <router-link to="/services">Services</router-link>
+            </p>
+            <p class="mb-3 text-black">
+              <router-link to="/pricing">Pricing</router-link>
+            </p>
+            <p class="mb-3 text-black"><router-link to="/faq">FAQs</router-link></p>
+            <p class="mb-3 text-black">
+              <router-link to="/contact">Contact</router-link>
+            </p>
+          </nav>
+        </div>
       </div>
     </header>
   </div>
@@ -86,9 +102,17 @@
 
 <script>
 export default {
+  data() {
+    return {
+      showMenu: false,
+    };
+  },
   methods: {
     scrollToTop() {
       window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+    showDropMenu() {
+      this.showMenu = !this.showMenu;
     },
   },
 };

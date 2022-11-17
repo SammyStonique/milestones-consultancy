@@ -30,10 +30,10 @@
           </a>
         </div>
 
-        <div class="lg:flex lg:flex-1 lg:items-center lg:justify-end">
+        <div class="lg:flex lg:flex-1 lg:items-center lg:justify-end sm:hidden">
           <nav
             aria-label="Site Nav"
-            class="lg:flex lg:gap-8 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide"
+            class="hidden lg:flex lg:gap-8 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide"
           >
             <router-link
               to="/"
@@ -79,6 +79,16 @@
             >
               Contact
             </router-link>
+          </nav>
+        </div>
+        <div class="lg:hidden pt-2 pl-3 bg-white">
+          <nav class="">
+            <p class="mb-3"><router-link to="/" class="text-white">Home</router-link></p>
+            <p class="mb-3"><router-link to="/about">About</router-link></p>
+            <p class="mb-3"><router-link to="/services">Services</router-link></p>
+            <p class="mb-3"><router-link to="/pricing">Pricing</router-link></p>
+            <p class="mb-3"><router-link to="/faq">FAQs</router-link></p>
+            <p class="mb-3"><router-link to="/contact">Contact</router-link></p>
           </nav>
         </div>
       </div>

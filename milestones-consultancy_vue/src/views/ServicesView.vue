@@ -248,18 +248,21 @@
 
 <script>
 import Header from "@/components/Header2.vue";
-import { Swiper, Autoplay, Pagination, Navigation } from "swiper";
+import { Swiper, Autoplay, Pagination, Navigation, EffectFade } from "swiper";
 import "swiper/scss";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/effect-fade";
 export default {
   components: { Header, Swiper },
   mounted() {
-    Swiper.use(Autoplay, Pagination, Navigation);
+    Swiper.use(Autoplay, Pagination, Navigation, EffectFade);
     const swiper = new Swiper(".swiper-container", {
       direction: "horizontal",
       loop: true,
-      modules: [Autoplay, Pagination, Navigation],
+      speed: 5000,
+      effect: "fade",
+      modules: [Autoplay, Pagination, Navigation, EffectFade],
       autoplay: {
         delay: 4000,
         disableOnInteraction: false,
@@ -291,7 +294,9 @@ export default {
     const swiper1 = new Swiper(".swiper-container1", {
       direction: "horizontal",
       loop: true,
-      modules: [Autoplay, Pagination, Navigation],
+      speed: 5000,
+      effect: "fade",
+      modules: [Autoplay, Pagination, Navigation, EffectFade],
       autoplay: {
         delay: 4000,
         disableOnInteraction: false,
@@ -323,7 +328,9 @@ export default {
     const swiper2 = new Swiper(".swiper-container2", {
       direction: "horizontal",
       loop: true,
-      modules: [Autoplay, Pagination, Navigation],
+      speed: 5000,
+      effect: "fade",
+      modules: [Autoplay, Pagination, Navigation, EffectFade],
       autoplay: {
         delay: 4000,
         disableOnInteraction: false,

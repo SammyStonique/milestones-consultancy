@@ -30,10 +30,10 @@
           </a>
         </div>
 
-        <div class="flex flex-1 items-center justify-end">
+        <div class="lg:flex lg:flex-1 lg:items-center lg:justify-end">
           <nav
             aria-label="Site Nav"
-            class="hidden lg:flex lg:gap-4 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide"
+            class="lg:flex lg:gap-8 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide"
           >
             <router-link
               to="/"
@@ -48,14 +48,6 @@
               class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               About
-            </router-link>
-
-            <router-link
-              to="/activities"
-              @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-            >
-              Activities
             </router-link>
 
             <router-link

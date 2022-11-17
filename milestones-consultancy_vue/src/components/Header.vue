@@ -31,49 +31,41 @@
         <div class="flex flex-1 items-center justify-end">
           <nav
             aria-label="Site Nav"
-            class="hidden lg:flex lg:gap-4 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide lg:text-white"
+            class="hidden lg:flex lg:gap-8 lg:text-base lg:font-bold lg:uppercase lg:tracking-wide lg:text-white"
           >
             <router-link
               to="/"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Home
             </router-link>
             <router-link
               to="/about"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               About
             </router-link>
 
             <router-link
-              to="/activities"
-              @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-            >
-              Activities
-            </router-link>
-
-            <router-link
               to="/services"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Services
             </router-link>
             <router-link
               to="/pricing"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Pricing
             </router-link>
             <router-link
               to="/faq"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               FAQs
             </router-link>
@@ -81,7 +73,7 @@
             <router-link
               to="/contact"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Contact
             </router-link>
@@ -105,13 +97,19 @@ export default {
 <style scoped>
 .sticky-navbar-appear {
   background-color: white;
-  color: red !important;
   border-bottom: solid gray 1px;
 }
+/* router-link.sticky-navbar-appear {
+  color: #9b0917;
+} */
 .sticky-navbar-disappear {
   background-color: none;
+  color: white !important;
 }
 .router-link-active {
-  color: #9b0917;
+  color: #9b0917 !important;
+}
+.nav-links {
+  color: black;
 }
 </style>

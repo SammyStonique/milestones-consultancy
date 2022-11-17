@@ -13,7 +13,7 @@
               <img
                 alt="Party"
                 src="@/assets/images/image04.jpeg"
-                class="absolute inset-0 h-full w-full object-cover"
+                class="transition ease-in absolute inset-0 h-full w-full object-cover scale-100 hover:scale-110 ease-in duration-500 cursor-pointer"
               />
             </div>
 
@@ -63,19 +63,22 @@
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <a href="#" class="group relative block bg-black">
+            <a
+              href=""
+              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
+            >
               <img
                 alt="Developer"
-                src="@/assets/images/sammyb-review.jpg"
+                src="@/assets/images/auscar.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
-                <p class="text-sm font-medium uppercase tracking-widest text-burgundy">
-                  Developer
+                <p class="text-sm font-medium uppercase tracking-widest text-black">
+                  President
                 </p>
 
-                <p class="text-2xl font-bold text-white">SammyB</p>
+                <p class="text-2xl font-bold text-white">Auscar</p>
 
                 <div class="mt-64">
                   <div
@@ -91,15 +94,18 @@
               </div>
             </a>
 
-            <a href="#" class="group relative block bg-black">
+            <a
+              href=""
+              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
+            >
               <img
                 alt="Developer"
-                src="@/assets/images/gracey-review.jpg"
+                src="@/assets/images/gracey.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
-                <p class="text-sm font-medium uppercase tracking-widest text-burgundy">
+                <p class="text-sm font-medium uppercase tracking-widest text-black">
                   Director - Communications
                 </p>
 
@@ -119,44 +125,19 @@
               </div>
             </a>
 
-            <a href="#" class="group relative block bg-black">
+            <a
+              href=""
+              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
+            >
               <img
                 alt="Developer"
-                src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+                src="@/assets/images/sirfred.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
-                <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
-                  Developer
-                </p>
-
-                <p class="text-2xl font-bold text-white">Tony Wayne</p>
-
-                <div class="mt-64">
-                  <div
-                    class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                  >
-                    <p class="text-sm text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores quibusdam quidem voluptates doloremque
-                      reiciendis nostrum harum. Repudiandae?
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-
-            <a href="#" class="group relative block bg-black">
-              <img
-                alt="Developer"
-                src="@/assets/images/freddy-review.jpeg"
-                class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-              />
-
-              <div class="relative p-8">
-                <p class="text-sm font-medium uppercase tracking-widest text-burgundy">
-                  Developer
+                <p class="text-sm font-medium uppercase tracking-widest text-black">
+                  Director - Foreign Relations
                 </p>
 
                 <p class="text-2xl font-bold text-white">Sir Fred</p>
@@ -175,19 +156,22 @@
               </div>
             </a>
 
-            <a href="#" class="group relative block bg-black">
+            <a
+              href=""
+              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
+            >
               <img
                 alt="Developer"
-                src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+                src="@/assets/images/sammyb-review.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
-                <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                <p class="text-sm font-medium uppercase tracking-widest text-black">
                   Developer
                 </p>
 
-                <p class="text-2xl font-bold text-white">Tony Wayne</p>
+                <p class="text-2xl font-bold text-white">SammyB</p>
 
                 <div class="mt-64">
                   <div
@@ -203,19 +187,53 @@
               </div>
             </a>
 
-            <a href="#" class="group relative block bg-black">
+            <a
+              href=""
+              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
+            >
               <img
                 alt="Developer"
-                src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+                src="@/assets/images/mercy.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
-                <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
-                  Developer
+                <p class="text-sm font-medium uppercase tracking-widest text-black">
+                  Treasurer
                 </p>
 
-                <p class="text-2xl font-bold text-white">Tony Wayne</p>
+                <p class="text-2xl font-bold text-white">Mercy Omondi</p>
+
+                <div class="mt-64">
+                  <div
+                    class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                  >
+                    <p class="text-sm text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                      perferendis hic asperiores quibusdam quidem voluptates doloremque
+                      reiciendis nostrum harum. Repudiandae?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a
+              href=""
+              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
+            >
+              <img
+                alt="Developer"
+                src="@/assets/images/lavender.jpg"
+                class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div class="relative p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-black">
+                  Social Media Manager
+                </p>
+
+                <p class="text-2xl font-bold text-white">Lavender</p>
 
                 <div class="mt-64">
                   <div

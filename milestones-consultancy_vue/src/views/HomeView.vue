@@ -25,10 +25,10 @@
       <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-12">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div
-            class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
+            class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full scale-100 hover:scale-105 ease-in duration-500 cursor-pointer"
           >
             <img
-              alt="Party"
+              alt="HomePage Image"
               src="@/assets/images/image05.jpeg"
               class="absolute inset-0 h-full w-full object-cover"
             />
@@ -85,7 +85,7 @@
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
-            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-burgundy/10 scale-100 hover:scale-105 ease-in duration-300"
             href=""
           >
             <svg
@@ -116,7 +116,7 @@
           </a>
 
           <a
-            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-burgundy/10 scale-100 hover:scale-105 ease-in duration-300"
             href=""
           >
             <svg
@@ -147,7 +147,7 @@
           </a>
 
           <a
-            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-burgundy/10 scale-100 hover:scale-105 ease-in duration-300"
             href=""
           >
             <svg
@@ -219,7 +219,7 @@
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
-            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/30"
+            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/20"
             href=""
           >
             <div class="m-auto w-1/4 mb-6">
@@ -238,7 +238,7 @@
           </a>
 
           <a
-            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/30"
+            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/20"
             href=""
           >
             <div class="m-auto w-1/4 mb-6">
@@ -257,7 +257,7 @@
           </a>
 
           <a
-            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/30"
+            class="block rounded-xl p-8 shadow-xl transition hover:border-burgundy/10 hover:shadow-burgundy/20"
             href=""
           >
             <div class="m-auto w-1/4 mb-6">
@@ -463,8 +463,15 @@ import { Swiper, Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/scss";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+
 export default {
   name: "HomeView",
+  data() {
+    return {
+      visible: false,
+    };
+  },
+
   components: { Header, Swiper },
   mounted() {
     Swiper.use(Autoplay, Pagination, Navigation);

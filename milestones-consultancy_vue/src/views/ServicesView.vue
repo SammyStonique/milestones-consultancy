@@ -38,7 +38,7 @@
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-lg text-center">
             <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/2"></div>
-            <h2 class="text-3xl font-bold sm:text-4xl">Strategy</h2>
+            <h2 class="text-3xl font-bold text-4xl">Strategy</h2>
           </div>
         </div>
       </section>

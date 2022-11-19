@@ -4,10 +4,15 @@
   >
     <header aria-label="Site Header" class="border-b-0">
       <div
-        class="mx-auto flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8"
+        class="mx-auto lg:flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8"
       >
         <div class="flex items-center">
-          <button type="button" class="p-2 sm:mr-4 lg:hidden">
+          <button
+            type="button"
+            @click="showDropMenu"
+            class="p-2 sm:mr-4 lg:hidden"
+            v-if="!showMenu"
+          >
             <svg
               class="h-6 w-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -23,11 +28,18 @@
               />
             </svg>
           </button>
+          <button
+            class="lg:hidden p-2 sm:mr-4 text-xl"
+            v-if="showMenu"
+            @click="closeDropMenu"
+          >
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </button>
 
-          <a href="#" class="flex">
+          <router-link to="/" class="flex">
             <span class="sr-only text-4xl">Logo</span>
             <span class="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
-          </a>
+          </router-link>
         </div>
 
         <div class="lg:flex lg:flex-1 lg:items-center lg:justify-end sm:hidden">
@@ -38,14 +50,14 @@
             <router-link
               to="/"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Home
             </router-link>
             <router-link
               to="/about"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               About
             </router-link>
@@ -53,42 +65,67 @@
             <router-link
               to="/services"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Services
             </router-link>
             <router-link
               to="/pricing"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Pricing
             </router-link>
             <router-link
               to="/faq"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               FAQs
+            </router-link>
+            <router-link
+              to="/careers"
+              @click="scrollToTop"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+            >
+              Careers
             </router-link>
 
             <router-link
               to="/contact"
               @click="scrollToTop"
-              class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Contact
             </router-link>
           </nav>
         </div>
-        <div class="lg:hidden pt-2 pl-3 bg-white">
+        <div
+          class="lg:hidden md:hidden py-4 pl-3 bg-slate-600 shadow-sm shadow-white rounded"
+          v-if="showMenu"
+        >
           <nav class="">
-            <p class="mb-3"><router-link to="/" class="text-white">Home</router-link></p>
-            <p class="mb-3"><router-link to="/about">About</router-link></p>
-            <p class="mb-3"><router-link to="/services">Services</router-link></p>
-            <p class="mb-3"><router-link to="/pricing">Pricing</router-link></p>
-            <p class="mb-3"><router-link to="/faq">FAQs</router-link></p>
-            <p class="mb-3"><router-link to="/contact">Contact</router-link></p>
+            <p class="mb-3 text-white">
+              <router-link to="/" @click="scrollToTop">Home</router-link>
+            </p>
+            <p class="mb-3 text-white">
+              <router-link to="/about" @click="scrollToTop">About</router-link>
+            </p>
+            <p class="mb-3 text-white">
+              <router-link to="/services" @click="scrollToTop">Services</router-link>
+            </p>
+            <p class="mb-3 text-white">
+              <router-link to="/pricing" @click="scrollToTop">Pricing</router-link>
+            </p>
+            <p class="mb-3 text-white">
+              <router-link to="/faq" @click="scrollToTop">FAQs</router-link>
+            </p>
+            <p class="mb-3 text-white">
+              <router-link to="/careers" @click="scrollToTop">Careers</router-link>
+            </p>
+            <p class="mb-3 text-white">
+              <router-link to="/contact" @click="scrollToTop">Contact</router-link>
+            </p>
           </nav>
         </div>
       </div>
@@ -98,9 +135,20 @@
 
 <script>
 export default {
+  data() {
+    return {
+      showMenu: false,
+    };
+  },
   methods: {
     scrollToTop() {
       window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+    showDropMenu() {
+      this.showMenu = true;
+    },
+    closeDropMenu() {
+      this.showMenu = false;
     },
   },
 };

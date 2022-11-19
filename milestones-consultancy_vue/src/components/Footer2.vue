@@ -48,11 +48,27 @@
                 aria-label="Footer Nav"
                 class="mt-6 flex flex-col space-y-4 text-sm text-gray-300"
               >
-                <a class="inline-block" href=""> 1on1 Coaching </a>
-                <a class="inline-block" href=""> Company Review </a>
-                <a class="inline-block" href=""> Accounts Review </a>
-                <a class="inline-block" href=""> HR Consulting </a>
-                <a class="inline-block" href=""> SEO Optimisation </a>
+                <router-link
+                  to="/services"
+                  class="inline-block"
+                  @click="scrollToPosition(500)"
+                >
+                  Strategy</router-link
+                >
+                <router-link
+                  to="/services"
+                  class="inline-block"
+                  @click="scrollToPosition(1150)"
+                >
+                  Leadership</router-link
+                >
+                <router-link
+                  to="/services"
+                  class="inline-block"
+                  @click="scrollToPosition(1800)"
+                >
+                  Development
+                </router-link>
               </nav>
             </div>
 
@@ -60,10 +76,28 @@
               <p class="font-bold text-white">Company</p>
 
               <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
-                <a class="inline-block" href=""> About </a>
-                <a class="inline-block" href=""> Meet the Team </a>
-                <a class="inline-block" href=""> History </a>
-                <a class="inline-block" href=""> Careers </a>
+                <router-link to="/about" class="inline-block"> About </router-link>
+                <router-link
+                  to="/about"
+                  class="inline-block"
+                  @click="scrollToPosition(700)"
+                >
+                  Meet Our Team
+                </router-link>
+                <router-link
+                  to="/pricing"
+                  class="inline-block"
+                  @click="scrollToPosition(0)"
+                >
+                  Pricing
+                </router-link>
+                <router-link
+                  to="/careers"
+                  class="inline-block"
+                  @click="scrollToPosition(0)"
+                >
+                  Careers
+                </router-link>
               </nav>
             </div>
 
@@ -71,20 +105,17 @@
               <p class="font-bold text-white">Helpful Links</p>
 
               <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
-                <a class="inline-block" href=""> Contact </a>
-                <a class="inline-block" href=""> FAQs </a>
+                <router-link
+                  to="/contact"
+                  class="inline-block"
+                  @click="scrollToPosition(0)"
+                >
+                  Contact
+                </router-link>
+                <router-link to="/faq" class="inline-block" @click="scrollToPosition(0)">
+                  FAQs
+                </router-link>
                 <a class="inline-block" href=""> Live Chat </a>
-              </nav>
-            </div>
-
-            <div class="col-span-2 border-t border-white/10 pt-6 sm:col-span-1">
-              <p class="font-bold text-white">Legal</p>
-
-              <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
-                <a class="inline-block" href=""> Accessibility </a>
-                <a class="inline-block" href=""> Returns Policy </a>
-                <a class="inline-block" href=""> Refund Policy </a>
-                <a class="inline-block" href=""> Hiring Statistics </a>
               </nav>
             </div>
 
@@ -203,5 +234,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToPosition(position) {
+      window.scrollTo({ top: position, behavior: "smooth" });
+    },
+  },
+};
 </script>

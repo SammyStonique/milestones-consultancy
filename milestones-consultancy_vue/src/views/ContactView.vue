@@ -1,11 +1,11 @@
 <template>
   <div class="contact">
     <Header />
-    <div class="w-full mb-10">
+    <div class="w-full mb-10 mt-16">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.632161641998!2d34.295167000000006!3d0.060707000000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48acef74239b1123!2sAlego%20Usonga%20Constituency%20Office%2F%20CDF!5e0!3m2!1sen!2ske!4v1668438735383!5m2!1sen!2ske"
         width="100%"
-        height="650"
+        height="580"
         style="border: 0"
         allowfullscreen=""
         loading="lazy"
@@ -38,7 +38,7 @@
           <div
             class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 hover:border-2 hover:border-burgundy"
           >
-            <form action="" class="space-y-4">
+            <form action="" class="space-y-4" @submit.prevent="giveFeedback">
               <div>
                 <label class="sr-only" for="name">Name</label>
                 <input
@@ -46,6 +46,7 @@
                   placeholder="Name"
                   type="text"
                   id="name"
+                  v-model="name"
                 />
               </div>
 
@@ -57,6 +58,7 @@
                     placeholder="Email address"
                     type="email"
                     id="email"
+                    v-model="email"
                   />
                 </div>
 
@@ -67,6 +69,7 @@
                     placeholder="Phone Number"
                     type="tel"
                     id="phone"
+                    v-model="phone_number"
                   />
                 </div>
               </div>
@@ -78,7 +81,14 @@
                   placeholder="Message"
                   rows="8"
                   id="message"
+                  v-model="message"
                 ></textarea>
+              </div>
+
+              <div class="" v-if="errors.length">
+                <p style="color: red" v-for="error in errors" v-bind:key="error">
+                  {{ error }}
+                </p>
               </div>
 
               <div class="mt-4">
@@ -116,6 +126,69 @@
 import Header from "@/components/Header2.vue";
 
 export default {
+  data() {
+    return {
+      name: "",
+      email: "",
+      phone_number: "",
+      message: "",
+      errors: [],
+    };
+  },
   components: { Header },
+  methods: {
+    giveFeedback() {
+      this.errors = [];
+      if (
+        this.email === "" &&
+        this.name === "" &&
+        this.phone_number === "" &&
+        this.message === ""
+      ) {
+        this.errors.push("Please fill in the details");
+        this.$toast.error("Please Enter Your Details", {
+          duration: 5000,
+          position: "top",
+        });
+      } else {
+        if (this.email === "") {
+          this.errors.push("Please enter your email");
+        }
+        if (this.name === "") {
+          this.errors.push("Please enter your name");
+        }
+        if (this.phone_number === "") {
+          this.errors.push("Please enter your phone number");
+        }
+        if (this.message === "") {
+          this.errors.push("Please give your feedback");
+        }
+      }
+      if (!this.errors.length) {
+        let formData = {
+          name: this.name,
+          email: this.email,
+          message: this.message,
+          phone_number: this.phone_number,
+        };
+        this.axios
+          .post("https://milestonesconsultancy.co.ke/api/contact.php", formData)
+          .then((response) => {
+            console.log(response);
+            this.$toast.success("Message Sent", {
+              duration: 5000,
+              position: "top",
+            });
+            this.name = "";
+            this.email = "";
+            this.message = "";
+            this.phone_number = "";
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+      }
+    },
+  },
 };
 </script>

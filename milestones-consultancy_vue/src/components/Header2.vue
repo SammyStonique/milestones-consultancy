@@ -39,6 +39,7 @@
           <router-link to="/" class="flex">
             <span class="sr-only text-4xl">Logo</span>
             <span class="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
+            <!-- <img src="@/assets/images/Logo.ico" alt="Logo" /> -->
           </router-link>
         </div>
 

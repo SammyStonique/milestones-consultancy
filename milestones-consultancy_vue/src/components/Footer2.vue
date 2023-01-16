@@ -13,14 +13,17 @@
                 <h2 class="text-2xl font-bold text-white">Get the latest news!</h2>
 
                 <p class="mt-6 text-gray-400">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
-                  cupiditate quae nam molestias.
+                  To get the latest news and updates, please subscribe to our newsletter.
                 </p>
               </div>
             </div>
 
             <div class="col-span-2 lg:col-span-3 lg:flex lg:items-end">
-              <form class="w-full text-white">
+              <form
+                class="w-full text-white"
+                action=""
+                @submit.prevent="newsSubscription"
+              >
                 <label for="email" class="sr-only"> Email </label>
 
                 <div class="border border-white/10 p-2 sm:flex sm:items-center">
@@ -29,6 +32,7 @@
                     type="email"
                     id="email"
                     placeholder="Enter your email"
+                    v-model="newsEmail"
                   />
 
                   <button
@@ -76,7 +80,13 @@
               <p class="font-bold text-white">Company</p>
 
               <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
-                <router-link to="/about" class="inline-block"> About </router-link>
+                <router-link
+                  to="/about"
+                  class="inline-block"
+                  @click="scrollToPosition(0)"
+                >
+                  About
+                </router-link>
                 <router-link
                   to="/about"
                   class="inline-block"
@@ -123,7 +133,13 @@
               <p class="font-bold text-white">Downloads</p>
 
               <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
-                <a class="inline-block" href=""> Marketing Calendar </a>
+                <a
+                  class="inline-block"
+                  :href="`${publicPath}Milestones Profile - 2023.pdf`"
+                  download="Milestones Profile"
+                >
+                  Milestones Profile
+                </a>
                 <a class="inline-block" href=""> SEO Infographics </a>
               </nav>
             </div>
@@ -235,9 +251,36 @@
 
 <script>
 export default {
+  data() {
+    return {
+      newsEmail: null,
+      publicPath: process.env.BASE_URL,
+    };
+  },
   methods: {
     scrollToPosition(position) {
       window.scrollTo({ top: position, behavior: "smooth" });
+    },
+    newsSubscription() {
+      let formData = {
+        email: this.newsEmail,
+      };
+      this.axios
+        .post("api/v1/newsletter-subscription/", formData)
+        .then((response) => {
+          console.log(response.data);
+          if (response.data != "No email provided") {
+            this.$toast.success("You have succesfully subscribed to our newsletter", {
+              duration: 5000,
+              dismissible: true,
+              position: "top",
+            });
+            this.newsEmail = "";
+          }
+        })
+        .catch((error) => {
+          console.log(error);
+        });
     },
   },
 };

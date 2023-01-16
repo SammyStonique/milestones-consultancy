@@ -112,8 +112,9 @@
             <h2 class="mt-4 text-xl font-bold text-white">Strategy</h2>
 
             <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus
-              adipisci distinctio alias voluptatum blanditiis laudantium.
+              Our strategy consultancies comprises of Development of Strategic Plans,
+              Participatory Community Development and Leadership Skills, Project
+              Management Skills among others.
             </p>
           </a>
 
@@ -143,8 +144,9 @@
             <h2 class="mt-4 text-xl font-bold text-white">Leadership</h2>
 
             <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus
-              adipisci distinctio alias voluptatum blanditiis laudantium.
+              Our leadership consultancies comprises of Mentorship For Student’s Councils,
+              Motivational Speaking, Child Rights and Child Protection, Career Options
+              Guidance & Development among others.
             </p>
           </a>
 
@@ -174,8 +176,9 @@
             <h2 class="mt-4 text-xl font-bold text-white">Development</h2>
 
             <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus
-              adipisci distinctio alias voluptatum blanditiis laudantium.
+              Our development consultancies comprises of Training and Staff Development ,
+              Event Organization & Logistics, Effective customer service management,
+              Effective customer service management among others.
             </p>
           </a>
         </div>
@@ -234,8 +237,8 @@
             <h2 class="mt-4 text-xl font-bold text-center">Quality Service</h2>
 
             <p class="mt-4 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus
-              adipisci distinctio alias voluptatum blanditiis laudantium.
+              We strive to provide nothing but the best for our clients. We ensure that
+              our clients get top notch services.
             </p>
           </a>
 
@@ -252,10 +255,7 @@
             </div>
             <h2 class="mt-4 text-xl font-bold text-center">Affordable Prices</h2>
 
-            <p class="mt-4 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus
-              adipisci distinctio alias voluptatum blanditiis laudantium.
-            </p>
+            <p class="mt-4 text-sm">We offer affordable prices to our clientelle.</p>
           </a>
 
           <a
@@ -272,14 +272,49 @@
             <h2 class="mt-4 text-xl font-bold text-center">Desired Results</h2>
 
             <p class="mt-4 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus
-              adipisci distinctio alias voluptatum blanditiis laudantium.
+              Put quite simply, if we do not feel we are best placed to provide you with
+              what you need, we will say so and save you time and money
             </p>
           </a>
         </div>
       </div>
     </section>
 
+    <section class="">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-2xl font-bold sm:text-4xl">Trusted By</h2>
+        </div>
+        <div class="flex mt-16">
+          <div class="basis-1/4 px-12 pt-8">
+            <img src="@/assets/images/child_fund.png" alt="" />
+          </div>
+          <div class="basis-1/4 px-12">
+            <img src="@/assets/images/world_vision.png" alt="" />
+          </div>
+          <div class="basis-1/4 px-12">
+            <img src="@/assets/images/care_international.jpg" alt="" />
+          </div>
+          <div class="basis-1/4 px-12">
+            <img src="@/assets/images/tembea_youth.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="flex mt-8">
+          <div class="basis-1/4 px-12 pt-8">
+            <img src="@/assets/images/redcross.png" alt="" />
+          </div>
+          <div class="basis-1/4 px-12">
+            <img src="@/assets/images/gok.jpeg" alt="" />
+          </div>
+          <div class="basis-1/4 px-12 pt-6">
+            <img src="@/assets/images/kofi_annan.png" alt="" />
+          </div>
+          <div class="basis-1/4 px-12 pt-6">
+            <img src="@/assets/images/compassion.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="lg:pl-24 lg:pr-24 pl-6 pr-6">
       <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/4"></div>
       <h3 class="text-center font-bold text-2xl mb-4">Testimonials</h3>
@@ -303,8 +338,8 @@
                       />
 
                       <div class="ml-4 text-sm">
-                        <p class="font-medium">Bark Dagleish</p>
-                        <p class="mt-1">Head of Barketing</p>
+                        <p class="font-medium">Pep Guardiola</p>
+                        <p class="mt-1">Manager - CFG Group</p>
                       </div>
                     </div>
 
@@ -333,8 +368,8 @@
                       />
 
                       <div class="ml-4 text-sm">
-                        <p class="font-medium">Bark Dagleish</p>
-                        <p class="mt-1">Head of Barketing</p>
+                        <p class="font-medium">Peter Mbugua</p>
+                        <p class="mt-1">Lead HR Officer - Optiven Group</p>
                       </div>
                     </div>
 
@@ -363,8 +398,8 @@
                       />
 
                       <div class="ml-4 text-sm">
-                        <p class="font-medium">Bark Dagleish</p>
-                        <p class="mt-1">Head of Barketing</p>
+                        <p class="font-medium">John Omondi</p>
+                        <p class="mt-1">Principal - Maseno School</p>
                       </div>
                     </div>
 
@@ -393,8 +428,8 @@
                       />
 
                       <div class="ml-4 text-sm">
-                        <p class="font-medium">Bark Dagleish</p>
-                        <p class="mt-1">Head of Barketing</p>
+                        <p class="font-medium">Mary Wagacha</p>
+                        <p class="mt-1">C.E.0 - Ezen Partners</p>
                       </div>
                     </div>
 
@@ -471,6 +506,7 @@ export default {
   data() {
     return {
       visible: false,
+      newsEmail: null,
     };
   },
 

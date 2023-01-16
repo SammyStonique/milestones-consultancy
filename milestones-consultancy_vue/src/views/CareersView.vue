@@ -30,7 +30,7 @@
               </p>
               <router-link
                 to="/about"
-                @click="scrollToPosition(700)"
+                @click="scrollToPosition(900)"
                 class="mt-8 inline-flex items-center rounded border border-burgundy bg-burgundy px-8 py-3 text-white hover:bg-transparent hover:text-burgundy focus:outline-none focus:ring active:text-burgundy"
               >
                 <span class="text-sm font-medium"> Meet Our Team </span>

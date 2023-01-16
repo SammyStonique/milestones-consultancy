@@ -49,6 +49,55 @@
           </div>
         </div>
       </section>
+      <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-lg text-center">
+            <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/2"></div>
+            <h2 class="text-3xl font-bold sm:text-4xl">Our Vision</h2>
+
+            <p class="mt-4">
+              Enlightened communities finding own solutions for own problems using
+              resources within their reach.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-lg text-center">
+            <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/2"></div>
+            <h2 class="text-3xl font-bold sm:text-4xl">Our Mission</h2>
+
+            <p class="mt-4">
+              To be a world class consultancy organization providing strategy, leadership
+              and development knowledge using various participatory approaches to meet
+              local and international community needs at affordable rates
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-lg text-center">
+            <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/2"></div>
+            <h2 class="text-3xl font-bold sm:text-4xl">Our Motto</h2>
+
+            <p class="mt-4">Together Each Achieves More (TEAM)</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-lg text-center">
+            <div class="text-center border-t-4 border-burgundy mb-6 m-auto w-1/2"></div>
+            <h2 class="text-3xl font-bold sm:text-4xl">Our Belief</h2>
+
+            <p class="mt-4">
+              From each according to his ability to each according to his needs
+            </p>
+          </div>
+        </div>
+      </section>
       <section id="meet-the-team">
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-lg text-center">
@@ -69,7 +118,7 @@
             >
               <img
                 alt="Developer"
-                src="@/assets/images/auscar.jpg"
+                src="@/assets/images/auscar-president.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
@@ -78,17 +127,74 @@
                   President
                 </p>
 
-                <p class="text-2xl font-bold text-white">Auscar</p>
+                <p class="text-2xl font-bold text-white">Mr. Auscar Wambiya</p>
 
                 <div class="mt-64">
                   <div
                     class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p class="text-sm text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores quibusdam quidem voluptates doloremque
-                      reiciendis nostrum harum. Repudiandae?
+                      Having worked with local and international non government
+                      organizations for over 10 years including Center for Education,
+                      Population, Environment and Development, Care International in
+                      Kenya, ChildFund International in Kenya, TEMBEA Youth Centre for
+                      Sustainable Development among others, Auscar brings into the firm
+                      unrivaled experience in adult development programming, community
+                      project design, implementation, monitoring and evaluation.
                     </p>
+                    <button
+                      class="rounded bg-slate-600 p-3 mt-3 mr-5 text-white font-bold hover:bg-white/50 hover:text-slate-600"
+                    >
+                      <a
+                        :href="`${publicPath}CV - Auscar Wambiya.pdf`"
+                        download="Curriculum_Vitae_Auscar_Wambiya"
+                      >
+                        Download CV</a
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              href=""
+              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
+            >
+              <img
+                alt="Developer"
+                src="@/assets/images/ruth.jpg"
+                class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div class="relative p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-black">
+                  Lead Consultant – Leadership
+                </p>
+
+                <p class="text-2xl font-bold text-white">Mrs. Ruth Dero</p>
+
+                <div class="mt-64">
+                  <div
+                    class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                  >
+                    <p class="text-sm text-white">
+                      Ruth Dero is a Senior Level Professional in Communication and Public
+                      Relations. She holds a Bachelors of Science (B.Sc) Degree from Moi
+                      University with a Second Class Upper Division, a Higher Diploma in
+                      Public Relations Management from the University of Nairobi and
+                      currently pursuing a Masters Degree in Communication studies in Moi
+                      University.
+                    </p>
+                    <button
+                      class="rounded bg-slate-600 p-3 mt-3 mr-5 text-white font-bold hover:bg-white/50 hover:text-slate-600"
+                    >
+                      <a
+                        :href="`${publicPath}CV - Ruth Dero.pdf`"
+                        download="Curriculum_Vitae_Ruth_Dero"
+                      >
+                        Download CV</a
+                      >
+                    </button>
                   </div>
                 </div>
               </div>
@@ -100,26 +206,40 @@
             >
               <img
                 alt="Developer"
-                src="@/assets/images/gracey.jpg"
+                src="@/assets/images/mark.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
                 <p class="text-sm font-medium uppercase tracking-widest text-black">
-                  Director - Communications
+                  Lead Consultant - Strategy
                 </p>
 
-                <p class="text-2xl font-bold text-white">Grace</p>
+                <p class="text-2xl font-bold text-white">Mr. Mark Okowa</p>
 
                 <div class="mt-64">
                   <div
                     class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p class="text-sm text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores quibusdam quidem voluptates doloremque
-                      reiciendis nostrum harum. Repudiandae?
+                      Mark Okowa is  a governance and  development consultant in Kenya
+                      with expertise in the following areas:  Facilitation skills,
+                      Fundraising and project development, Baseline surveys, Needs
+                      assessment and community mapping, Monitoring and evaluation,
+                      Right-based Policy Advocacy, Civil Society capacity building,
+                      Livelihood support and HIV/AIDS mitigation ,  Community Engagement
+                      and democracy promotion , Peace building and Conflict mitigation.
                     </p>
+                    <button
+                      class="rounded bg-slate-600 p-3 mt-3 mr-5 text-white font-bold hover:bg-white/50 hover:text-slate-600"
+                    >
+                      <a
+                        :href="`${publicPath}CV - Mark Okowa.pdf`"
+                        download="Curriculum_Vitae_Mark_Okowa"
+                      >
+                        Download CV</a
+                      >
+                    </button>
                   </div>
                 </div>
               </div>
@@ -131,26 +251,40 @@
             >
               <img
                 alt="Developer"
-                src="@/assets/images/sirfred.jpg"
+                src="@/assets/images/paschal.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
                 <p class="text-sm font-medium uppercase tracking-widest text-black">
-                  Director - Foreign Relations
+                  Lead Consultant - Development
                 </p>
 
-                <p class="text-2xl font-bold text-white">Sir Fred</p>
+                <p class="text-2xl font-bold text-white">Dr. Paschal Wambiya</p>
 
                 <div class="mt-64">
                   <div
                     class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p class="text-sm text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores quibusdam quidem voluptates doloremque
-                      reiciendis nostrum harum. Repudiandae?
+                      He holds a Ph.D in Education with a specialization in Education
+                      Research and Evaluation. At the Curriculum Development Centre in
+                      Kenya where he worked for 9 years, he evaluated many education
+                      programs including TIVET programs. Dr. Paschal worked for the
+                      International Labour Organization’s Program on the Elimination of
+                      Child Labour for 9 years as the Education and Training officer.
+                      During this time, he oversaw many evaluations in his department.
                     </p>
+                    <button
+                      class="rounded bg-slate-600 p-3 mt-3 mr-5 text-white font-bold hover:bg-white/50 hover:text-slate-600"
+                    >
+                      <a
+                        :href="`${publicPath}CV - Paschal Wambiya.pdf`"
+                        download="Curriculum_Vitae_Paschal_Wambiya"
+                      >
+                        Download CV</a
+                      >
+                    </button>
                   </div>
                 </div>
               </div>
@@ -168,19 +302,22 @@
 
               <div class="relative p-8">
                 <p class="text-sm font-medium uppercase tracking-widest text-black">
-                  Developer
+                  Associate Consultant
                 </p>
 
-                <p class="text-2xl font-bold text-white">SammyB</p>
+                <p class="text-2xl font-bold text-white">Mr. Richard Ayimba</p>
 
                 <div class="mt-64">
                   <div
                     class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p class="text-sm text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores quibusdam quidem voluptates doloremque
-                      reiciendis nostrum harum. Repudiandae?
+                      Richard Ayimba Ojiro has worked in a multi-sectoral set up,
+                      conducted Operation Research, M&E Advisory and technical support,
+                      Capacity Building, Resource Mobilization & Fundraising strategy,
+                      liaison and linking government departments with donors/NGOs ,
+                      technical support to government departments and Program partners
+                      (NGOs, FBOs and CBOs)
                     </p>
                   </div>
                 </div>
@@ -193,56 +330,31 @@
             >
               <img
                 alt="Developer"
-                src="@/assets/images/mercy.jpg"
+                src="@/assets/images/auscar.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
                 <p class="text-sm font-medium uppercase tracking-widest text-black">
-                  Treasurer
+                  ASSOCIATE CONSULTANT
                 </p>
 
-                <p class="text-2xl font-bold text-white">Mercy Omondi</p>
+                <p class="text-2xl font-bold text-white">Mr. Job Wasonga</p>
 
                 <div class="mt-64">
                   <div
                     class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p class="text-sm text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores quibusdam quidem voluptates doloremque
-                      reiciendis nostrum harum. Repudiandae?
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-
-            <a
-              href=""
-              class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
-            >
-              <img
-                alt="Developer"
-                src="@/assets/images/lavender.jpg"
-                class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-              />
-
-              <div class="relative p-8">
-                <p class="text-sm font-medium uppercase tracking-widest text-black">
-                  Social Media Manager
-                </p>
-
-                <p class="text-2xl font-bold text-white">Lavender</p>
-
-                <div class="mt-64">
-                  <div
-                    class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                  >
-                    <p class="text-sm text-white">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                      perferendis hic asperiores quibusdam quidem voluptates doloremque
-                      reiciendis nostrum harum. Repudiandae?
+                      Job Isaacs Wasonga is a Public Health practitioner with over 10
+                      years’ experience in implementing HIV/AIDS, water, sanitation and
+                      hygiene programs in Kenya. During the past ten years he has
+                      conducted capacity building to health workers, education officers,
+                      head teachers, teachers, community health workers on safe water
+                      system, hygiene promotion, behavior change communication, care and
+                      support of people living with HIV/AIDS and mentored them on
+                      different types of training methodology such as Home Based Care,
+                      CLTS, PHAST, PHASE, CHAST, and C-to-C.
                     </p>
                   </div>
                 </div>
@@ -260,5 +372,10 @@ import Header from "@/components/Header2.vue";
 
 export default {
   components: { Header },
+  data() {
+    return {
+      publicPath: process.env.BASE_URL,
+    };
+  },
 };
 </script>

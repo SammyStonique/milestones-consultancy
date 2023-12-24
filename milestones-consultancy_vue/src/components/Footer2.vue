@@ -4,7 +4,8 @@
       <div class="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
         <div class="lg:flex lg:gap-8">
           <div>
-            <span class="block h-10 w-32 rounded-lg bg-gray-700"></span>
+            <!-- <span class="block h-10 w-32 rounded-lg bg-gray-700"></span> -->
+            <img class="inline-block h-16 w-40 rounded-lg" src="@/assets/images/new-logo.jpg" alt="Logo" />
           </div>
 
           <div class="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
@@ -99,10 +100,10 @@
                   class="inline-block"
                   @click="scrollToPosition(0)"
                 >
-                  Pricing
+                  Activities
                 </router-link>
                 <router-link
-                  to="/careers"
+                  to="/activities"
                   class="inline-block"
                   @click="scrollToPosition(0)"
                 >
@@ -125,7 +126,13 @@
                 <router-link to="/faq" class="inline-block" @click="scrollToPosition(0)">
                   FAQs
                 </router-link>
-                <a class="inline-block" href=""> Live Chat </a>
+                <router-link
+                  to="#"
+                  class="inline-block"
+                  @click="scrollToPosition(0)"
+                >
+                  Live Chat
+                </router-link>
               </nav>
             </div>
 
@@ -135,12 +142,29 @@
               <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
                 <a
                   class="inline-block"
-                  :href="`${publicPath}Milestones Profile - 2023.pdf`"
+                  :href="`${publicPath}Milestones Profile.docx`"
                   download="Milestones Profile"
                 >
                   Milestones Profile
                 </a>
-                <a class="inline-block" href=""> SEO Infographics </a>
+              </nav>
+              <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
+                <a
+                  class="inline-block"
+                  :href="`${publicPath}MILESTONES NEWSLETTER 2023.pdf`"
+                  download="NEWSLETTER MESSAGE FROM THE PRESIDENT"
+                >
+                  Newsletter
+                </a>
+              </nav>
+              <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
+                <a
+                  class="inline-block"
+                  :href="`${publicPath}PROFILES_OF_THE_CONSULTING_TEAM.docx`"
+                  download="PROFILES OF THE CONSULTING TEAM"
+                >
+                  Consulting Team Profile
+                </a>
               </nav>
             </div>
 

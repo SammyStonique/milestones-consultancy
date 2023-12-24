@@ -36,7 +36,8 @@
 
           <router-link to="/" class="flex">
             <span class="sr-only text-4xl">Logo</span>
-            <span class="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
+            <!-- <span class="inline-block h-10 w-32 rounded-lg bg-gray-200"></span> -->
+            <img class="inline-block h-14 w-32 rounded-lg" src="@/assets/images/new-logo.jpg" alt="Logo" />
           </router-link>
         </div>
 
@@ -52,6 +53,7 @@
             >
               Home
             </router-link>
+
             <router-link
               to="/about"
               @click="scrollToTop"
@@ -67,6 +69,15 @@
             >
               Services
             </router-link>
+
+            <router-link
+              to="/activities"
+              @click="scrollToTop"
+              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+            >
+              Activities
+            </router-link>
+
             <router-link
               to="/pricing"
               @click="scrollToTop"
@@ -74,6 +85,7 @@
             >
               Pricing
             </router-link>
+
             <router-link
               to="/faq"
               @click="scrollToTop"
@@ -81,6 +93,7 @@
             >
               FAQs
             </router-link>
+
             <router-link
               to="/careers"
               @click="scrollToTop"

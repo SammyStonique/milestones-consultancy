@@ -338,18 +338,18 @@
                       />
 
                       <div class="ml-4 text-sm">
-                        <p class="font-medium">Pep Guardiola</p>
-                        <p class="mt-1">Manager - CFG Group</p>
+                        <p class="font-medium">Okeyo Joseph</p>
+                        <p class="mt-1">Vice Principal - Siaya KMTC</p>
                       </div>
                     </div>
 
-                    <p class="relative mt-4 text-gray-500">
+                    <p class="relative mt-4 text-gray-500 text-sm">
                       <span class="text-xl">&ldquo;</span>
 
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                      assumenda officiis sit amet itaque eveniet accusantium corporis
-                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                      repellat, commodi in esse quisquam.
+                      Working with Milestones Consultancy was a game-changer for our business. 
+                      Their team of experts demonstrated unparalleled professionalism and a deep understanding of our industry. 
+                      Their strategic insights and innovative solutions have not only optimized our operations but also significantly increased our bottom line. 
+                      We highly recommend Milestones Consultancy for anyone seeking top-notch consultancy services.
 
                       <span class="text-xl">&rdquo;</span>
                     </p>
@@ -373,13 +373,13 @@
                       </div>
                     </div>
 
-                    <p class="relative mt-4 text-gray-500">
+                    <p class="relative mt-4 text-gray-500 text-sm">
                       <span class="text-xl">&ldquo;</span>
 
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                      assumenda officiis sit amet itaque eveniet accusantium corporis
-                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                      repellat, commodi in esse quisquam.
+                      The team at Milestones Consultancy exceeded our expectations in every way. 
+                      Their commitment to client success, attention to detail, and ability to navigate complex challenges were truly impressive. 
+                      From the initial consultation to the final implementation, their expertise was evident, and the results spoke for themselves. 
+                      Milestones Consultancy is our go-to partner for strategic business advice.
 
                       <span class="text-xl">&rdquo;</span>
                     </p>
@@ -403,13 +403,13 @@
                       </div>
                     </div>
 
-                    <p class="relative mt-4 text-gray-500">
+                    <p class="relative mt-4 text-gray-500 text-sm">
                       <span class="text-xl">&ldquo;</span>
 
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                      assumenda officiis sit amet itaque eveniet accusantium corporis
-                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                      repellat, commodi in esse quisquam.
+                      Milestones Consultancy played a crucial role in transforming our business strategy. 
+                      Their knowledgeable team guided us through a comprehensive analysis of our processes and market dynamics. 
+                      The tailored solutions they provided were instrumental in enhancing our efficiency and competitiveness. 
+                      If you're looking for a consultancy that delivers results, Milestones Consultancy is the one.
 
                       <span class="text-xl">&rdquo;</span>
                     </p>
@@ -433,13 +433,13 @@
                       </div>
                     </div>
 
-                    <p class="relative mt-4 text-gray-500">
+                    <p class="relative mt-4 text-gray-500 text-sm">
                       <span class="text-xl">&ldquo;</span>
 
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                      assumenda officiis sit amet itaque eveniet accusantium corporis
-                      tempora, soluta perspiciatis rerum, ratione animi nemo inventore
-                      repellat, commodi in esse quisquam.
+                      We engaged Milestones Consultancy to help us navigate a critical period of growth, and their impact was immediate. 
+                      Their team brought a fresh perspective, identifying opportunities we hadn't considered and addressing challenges head-on. 
+                      Their dedication to client success, coupled with their strategic approach, sets them apart. 
+                      We are grateful for the partnership with Milestones Consultancy and confidently recommend their services to businesses seeking transformative solutions.
 
                       <span class="text-xl">&rdquo;</span>
                     </p>

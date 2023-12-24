@@ -6,6 +6,7 @@ import PricingView from '../views/PricingView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import FAQView from '../views/FAQView.vue'
 import CareersView from '../views/CareersView.vue'
+import ActivitiesView from '../views/ActivitiesView.vue'
 
 const routes = [
   {
@@ -43,6 +44,11 @@ const routes = [
     path: '/careers',
     name: 'careers',
     component: CareersView
+  },
+  {
+    path: '/activities',
+    name: 'activities',
+    component: ActivitiesView
   },
 
 ]

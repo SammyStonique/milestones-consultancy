@@ -105,19 +105,17 @@
             <h2 class="text-3xl font-bold sm:text-4xl">Meet Our Amazing Team</h2>
 
             <p class="mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
-              aliquam doloribus nesciunt eos fugiat. Vitae aperiam fugit consequuntur
-              saepe laborum.
+              Feel free to reach out to any member of our team for expert advice and personalized solutions. 
+              We look forward to partnering with you on your journey to success.
             </p>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <a
-              href=""
+            <div
               class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
             >
               <img
-                alt="Developer"
+                alt="President"
                 src="@/assets/images/auscar-president.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
@@ -155,13 +153,12 @@
                   </div>
                 </div>
               </div>
-            </a>
-            <a
-              href=""
+            </div>
+            <div
               class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
             >
               <img
-                alt="Developer"
+                alt="Lead Consultant – Leadership"
                 src="@/assets/images/ruth.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
@@ -198,14 +195,13 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
 
-            <a
-              href=""
+            <div
               class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
             >
               <img
-                alt="Developer"
+                alt="Lead Consultant - Strategy"
                 src="@/assets/images/mark.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
@@ -243,14 +239,13 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
 
-            <a
-              href=""
+            <div
               class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
             >
               <img
-                alt="Developer"
+                alt="Lead Consultant - Development"
                 src="@/assets/images/paschal.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
@@ -288,14 +283,13 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
 
-            <a
-              href=""
+            <div
               class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
             >
               <img
-                alt="Developer"
+                alt="Associate Consultant"
                 src="@/assets/images/sammyb-review.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
@@ -322,21 +316,20 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
 
-            <a
-              href=""
+            <div
               class="group relative block bg-black scale-100 hover:scale-105 ease-in duration-500"
             >
               <img
-                alt="Developer"
+                alt="Associate Consultant"
                 src="@/assets/images/auscar.jpg"
                 class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div class="relative p-8">
                 <p class="text-sm font-medium uppercase tracking-widest text-black">
-                  ASSOCIATE CONSULTANT
+                  Associate Consultant
                 </p>
 
                 <p class="text-2xl font-bold text-white">Mr. Job Wasonga</p>
@@ -359,7 +352,7 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </section>

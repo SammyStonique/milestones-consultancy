@@ -75,7 +75,7 @@
               @click="scrollToTop"
               class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
-              Activities
+            Consultancies
             </router-link>
 
             <router-link

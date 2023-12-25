@@ -100,7 +100,7 @@
                   class="inline-block"
                   @click="scrollToPosition(0)"
                 >
-                  Activities
+                Consultancies
                 </router-link>
                 <router-link
                   to="/activities"
@@ -142,7 +142,7 @@
               <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
                 <a
                   class="inline-block"
-                  :href="`${publicPath}Milestones Profile.docx`"
+                  :href="`${publicPath}Milestones Profile - 2023.pdf`"
                   download="Milestones Profile"
                 >
                   Milestones Profile
@@ -160,7 +160,7 @@
               <nav class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
                 <a
                   class="inline-block"
-                  :href="`${publicPath}PROFILES_OF_THE_CONSULTING_TEAM.docx`"
+                  :href="`${publicPath}PROFILES_OF_THE_CONSULTING_TEAM.pdf`"
                   download="PROFILES OF THE CONSULTING TEAM"
                 >
                   Consulting Team Profile

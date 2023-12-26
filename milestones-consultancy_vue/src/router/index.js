@@ -7,6 +7,7 @@ import ServicesView from '../views/ServicesView.vue'
 import FAQView from '../views/FAQView.vue'
 import CareersView from '../views/CareersView.vue'
 import ActivitiesView from '../views/ActivitiesView.vue'
+import PublicationsView from '../views/PublicationsView.vue'
 
 const routes = [
   {
@@ -49,6 +50,11 @@ const routes = [
     path: '/activities',
     name: 'activities',
     component: ActivitiesView
+  },
+  {
+    path: '/publications',
+    name: 'publications',
+    component: PublicationsView
   },
 
 ]

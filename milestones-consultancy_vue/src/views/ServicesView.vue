@@ -12,7 +12,7 @@
               class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-100"
             >
               <img
-                alt="Party"
+                alt="Milestones"
                 src="@/assets/images/image05.jpeg"
                 class="absolute inset-0 h-full w-full object-cover"
               />
@@ -51,7 +51,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image01.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -60,7 +60,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image04.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -70,7 +70,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image05.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -80,7 +80,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image03.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -89,7 +89,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image02.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -146,7 +146,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image09.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -155,7 +155,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image10.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -165,7 +165,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image11.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -175,7 +175,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image12.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -203,7 +203,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image07.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />
@@ -212,7 +212,7 @@
                   class="swiper-slide relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-80"
                 >
                   <img
-                    alt="Party"
+                    alt="Milestones"
                     src="@/assets/images/image08.jpeg"
                     class="absolute inset-0 h-full w-full object-cover"
                   />

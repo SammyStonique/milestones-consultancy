@@ -70,14 +70,31 @@
             >
               Services
             </router-link>
-
-            <router-link
-              to="/activities"
-              @click="scrollToTop"
-              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-            >
-              Consultancies
-            </router-link>
+            <div class="dropdown">
+              <router-link
+                to="/activities"
+                @click="scrollToTop"
+                class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              >
+                Consultancies
+              </router-link>
+              <div class="dropdown-content absolute rounded shadow-md shadow-slate-500 bg-white w-52 h-24 pl-4 py-2 z-50">
+                <router-link
+                to="/activities"
+                @click="scrollToTop"
+                class="block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
+              >
+                Activities
+              </router-link>
+              <router-link
+                to="/publications"
+                @click="scrollToTop"
+                class="block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
+              >
+                Publications
+              </router-link>
+              </div>
+          </div>
 
             <router-link
               to="/pricing"
@@ -167,5 +184,11 @@ export default {
 <style scoped>
 .router-link-active {
   color: #9b0917;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-content{
+  display: none;
 }
 </style>

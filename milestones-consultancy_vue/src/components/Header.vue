@@ -70,21 +70,38 @@
               Services
             </router-link>
 
-            <router-link
-              to="/activities"
-              @click="scrollToTop"
-              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-            >
-            Consultancies
-            </router-link>
-
-            <router-link
-              to="/pricing"
-              @click="scrollToTop"
-              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-            >
-              Pricing
-            </router-link>
+            <div class="dropdown">
+              <router-link
+                to="/activities"
+                @click="scrollToTop"
+                class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+              >
+                Consultancies
+              </router-link>
+              <div class="dropdown-content absolute rounded shadow-md shadow-slate-500 bg-white w-52 h-32 pl-4 py-2 z-50">
+                <router-link
+                to="/activities"
+                @click="scrollToTop"
+                class="nav-links block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
+              >
+                Activities
+              </router-link>
+              <router-link
+                to="/publications"
+                @click="scrollToTop"
+                class="nav-links block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
+              >
+                Publications
+              </router-link>
+              <router-link
+                to="/pricing"
+                @click="scrollToTop"
+                class="nav-links block h-8 border-b-4 border-transparent leading-[4rem] hover:text-red-700"
+                >
+                  Pricing
+              </router-link>
+              </div>
+          </div>
 
             <router-link
               to="/faq"
@@ -119,7 +136,7 @@
               <router-link to="/services">Services</router-link>
             </p>
             <p class="mb-3 text-black">
-              <router-link to="/pricing">Pricing</router-link>
+              <router-link to="/activities">Conultancies</router-link>
             </p>
             <p class="mb-3 text-black"><router-link to="/faq">FAQs</router-link></p>
             <p class="mb-3 text-black">
@@ -173,5 +190,11 @@ export default {
 }
 .nav-links {
   color: black;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-content{
+  display: none;
 }
 </style>

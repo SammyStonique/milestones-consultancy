@@ -74,35 +74,35 @@
               <router-link
                 to="/activities"
                 @click="scrollToTop"
-                class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+                class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:text-red-700"
               >
                 Consultancies
               </router-link>
-              <div class="dropdown-content absolute rounded shadow-md shadow-slate-500 bg-white w-52 h-24 pl-4 py-2 z-50">
+              <div class="dropdown-content absolute rounded shadow-md shadow-slate-500 bg-white w-52 h-32 pl-4 py-2 z-50">
                 <router-link
                 to="/activities"
                 @click="scrollToTop"
-                class="block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
+                class="nav-links block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
               >
                 Activities
               </router-link>
               <router-link
                 to="/publications"
                 @click="scrollToTop"
-                class="block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
+                class="nav-links block h-8 border-b-4 border-transparent leading-[4rem]  hover:text-red-700"
               >
                 Publications
+              </router-link>
+              <router-link
+                to="/pricing"
+                @click="scrollToTop"
+                class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:text-red-700"
+                >
+                  Pricing
               </router-link>
               </div>
           </div>
 
-            <router-link
-              to="/pricing"
-              @click="scrollToTop"
-              class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
-            >
-              Pricing
-            </router-link>
             <router-link
               to="/faq"
               @click="scrollToTop"
@@ -142,7 +142,7 @@
               <router-link to="/services" @click="scrollToTop">Services</router-link>
             </p>
             <p class="mb-3 text-white">
-              <router-link to="/pricing" @click="scrollToTop">Pricing</router-link>
+              <router-link to="/activities" @click="scrollToTop">Consultancies</router-link>
             </p>
             <p class="mb-3 text-white">
               <router-link to="/faq" @click="scrollToTop">FAQs</router-link>
@@ -182,6 +182,9 @@ export default {
 </script>
 
 <style scoped>
+.nav-links{
+  color: black;
+}
 .router-link-active {
   color: #9b0917;
 }

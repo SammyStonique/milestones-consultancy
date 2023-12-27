@@ -96,14 +96,14 @@
                   Meet Our Team
                 </router-link>
                 <router-link
-                  to="/pricing"
+                  to="/activities"
                   class="inline-block"
                   @click="scrollToPosition(0)"
                 >
                 Consultancies
                 </router-link>
                 <router-link
-                  to="/activities"
+                  to="/careers"
                   class="inline-block"
                   @click="scrollToPosition(0)"
                 >
@@ -127,11 +127,11 @@
                   FAQs
                 </router-link>
                 <router-link
-                  to="#"
+                  to="/publications"
                   class="inline-block"
                   @click="scrollToPosition(0)"
                 >
-                  Live Chat
+                  Publications
                 </router-link>
               </nav>
             </div>

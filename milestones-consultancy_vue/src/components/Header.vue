@@ -74,7 +74,7 @@
               <router-link
                 to="/activities"
                 @click="scrollToTop"
-                class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
+                class="nav-links block h-16 border-b-4 border-transparent leading-[4rem] hover:text-red-700"
               >
                 Consultancies
               </router-link>
@@ -135,9 +135,21 @@
             <p class="mb-3 text-black">
               <router-link to="/services">Services</router-link>
             </p>
-            <p class="mb-3 text-black">
-              <router-link to="/activities">Conultancies</router-link>
-            </p>
+            <div class="dropdown-sm mb-3">
+              <button class="text-black" @click="showDropDown">Consultancies
+              </button>
+              <div class="dropdown-content-sm pl-8 mt-3" v-if="dropDown">
+                <p class="mb-3 text-black">
+                  <router-link to="/activities" @click="scrollToTop">Activities</router-link>
+                </p>
+                <p class="mb-3 text-black">
+                  <router-link to="/publications" @click="scrollToTop">Publications</router-link>
+                </p>
+                <p class="mb-3 text-black">
+                  <router-link to="/pricing" @click="scrollToTop">Pricing</router-link>
+                </p>
+              </div>
+          </div>
             <p class="mb-3 text-black"><router-link to="/faq">FAQs</router-link></p>
             <p class="mb-3 text-black">
               <router-link to="/careers">Careers</router-link>
@@ -157,6 +169,7 @@ export default {
   data() {
     return {
       showMenu: false,
+      dropDown: false,
     };
   },
   methods: {
@@ -165,6 +178,9 @@ export default {
     },
     showDropMenu() {
       this.showMenu = true;
+    },
+    showDropDown(){
+      this.dropDown = !this.dropDown;
     },
     closeDropMenu() {
       this.showMenu = false;

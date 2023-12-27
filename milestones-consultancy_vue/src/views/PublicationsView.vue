@@ -5,7 +5,7 @@
         <section>
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-12 lg:mb-12 sm:mb-8">
           <div class="font-semibold text-center lg:mb-8 sm:mb-4">
-            <h2 class="sm:text-4xl text-3xl sm:mb-4">Publications</h2>
+            <h2 class="sm:text-4xl mb-6 text-3xl sm:mb-4">Publications</h2>
           </div>
           <div class="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-16">
             <p class="">

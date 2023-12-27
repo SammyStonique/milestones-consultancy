@@ -281,36 +281,36 @@
     </section>
 
     <section class="">
-      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-screen-xl px-4 lg:py-16 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-lg text-center">
           <h2 class="text-2xl font-bold sm:text-4xl">Trusted By</h2>
         </div>
-        <div class="flex mt-16">
-          <div class="basis-1/4 px-12 pt-8">
-            <img src="@/assets/images/child_fund.png" alt="" />
+        <div class="flex mt-8 lg:mt-16">
+          <div class="lg:basis-1/4 md:basis-1/4 px-2 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/child_fund.png" alt="Child Fund" />
           </div>
-          <div class="basis-1/4 px-12">
-            <img src="@/assets/images/world_vision.png" alt="" />
+          <div class="lg:basis-1/4 md:basis-1/4 px-2 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/world_vision.png" alt="World Vision" />
           </div>
-          <div class="basis-1/4 px-12">
-            <img src="@/assets/images/care_international.jpg" alt="" />
+          <div class="lg:basis-1/4 md:basis-4 px-2 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/care_international.jpg" alt="Care International" />
           </div>
-          <div class="basis-1/4 px-12">
-            <img src="@/assets/images/tembea_youth.jpeg" alt="" />
+          <div class="lg:basis-1/4 md:basis-1/4 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/tembea_youth.jpeg" alt="Tembea Youth"/>
           </div>
         </div>
-        <div class="flex mt-8">
-          <div class="basis-1/4 px-12 pt-8">
-            <img src="@/assets/images/redcross.png" alt="" />
+        <div class="flex mt-8 mb-4 lg:mt-16">
+          <div class="lg:basis-1/4 md:basis-1/4 px-2 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/redcross.png" alt="Red Cross" />
           </div>
-          <div class="basis-1/4 px-12">
-            <img src="@/assets/images/gok.jpeg" alt="" />
+          <div class="lg:basis-1/4 md:basis-1/4 px-2 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/gok.jpeg" alt="GoK" />
           </div>
-          <div class="basis-1/4 px-12 pt-6">
-            <img src="@/assets/images/kofi_annan.png" alt="" />
+          <div class="lg:basis-1/4 md:basis-1/4 px-2 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/kofi_annan.png" alt="Kofi Annan" />
           </div>
-          <div class="basis-1/4 px-12 pt-6">
-            <img src="@/assets/images/compassion.png" alt="" />
+          <div class="lg:basis-1/4 md:basis-1/4 pt-2 lg:px-12 md:px-10 lg:pt-8 md:pt-8">
+            <img src="@/assets/images/compassion.png" alt="Compassion" />
           </div>
         </div>
       </div>

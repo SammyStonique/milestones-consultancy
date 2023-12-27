@@ -141,9 +141,21 @@
             <p class="mb-3 text-white">
               <router-link to="/services" @click="scrollToTop">Services</router-link>
             </p>
-            <p class="mb-3 text-white">
-              <router-link to="/activities" @click="scrollToTop">Consultancies</router-link>
-            </p>
+            <div class="dropdown-sm mb-3">
+              <button class=" text-white" @click="showDropDown">Consultancies
+              </button>
+              <div class="dropdown-content-sm pl-8 mt-3" v-if="dropDown">
+                <p class="mb-3 text-white">
+                  <router-link to="/activities" @click="scrollToTop">Activities</router-link>
+                </p>
+                <p class="mb-3 text-white">
+                  <router-link to="/publications" @click="scrollToTop">Publications</router-link>
+                </p>
+                <p class="mb-3 text-white">
+                  <router-link to="/pricing" @click="scrollToTop">Pricing</router-link>
+                </p>
+              </div>
+          </div>
             <p class="mb-3 text-white">
               <router-link to="/faq" @click="scrollToTop">FAQs</router-link>
             </p>
@@ -165,6 +177,7 @@ export default {
   data() {
     return {
       showMenu: false,
+      dropDown: false,
     };
   },
   methods: {
@@ -173,6 +186,9 @@ export default {
     },
     showDropMenu() {
       this.showMenu = true;
+    },
+    showDropDown(){
+      this.dropDown = !this.dropDown;
     },
     closeDropMenu() {
       this.showMenu = false;
